@@ -1,0 +1,140 @@
+html{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    color: white;
+    background-color: #AF7EEB;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    width: 370px;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.container{
+    width: 370px;
+    text-align: center;
+    background-color: white;
+    border: 2px #AF7EEB solid;
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+#formControl{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #AF7EEB;
+    height: 2.5rem;
+    width: 300px;
+    transition: 0.5s;
+    text-align: center;
+    color: #AF7EEB;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+#formControl:focus{
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #AF7EEB;
+}
+#todoListContainer{
+    width: 90%;
+    margin: auto;
+}
+.todoList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(45deg , #0AC9AF 0%,#FFD706 100%); */
+    background-color: white;
+    color: #AF7EEB;
+    padding: 0 5%;
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+}
+
+.checkAndNoteContainer{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.checkBox{
+  height: 18px;
+  width: 18px;
+  accent-color: rgb(255, 255, 255);
+}
+
+.todoList p{
+    margin: 4%;
+}
+.trashIcon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+button{
+    width: 100px;
+    height: 32px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.7rem;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+/* button i{
+    color: #AF7EEB;
+}
+button i:hover{
+    color: black;
+} */
+.saveBtn{
+    background: white;
+    border: 2px solid #AF7EEB ;
+    color: black;
+
+}
+.saveBtn:hover{
+    background: #AF7EEB;
+}
+.clearBtn{
+    background: white;
+    border: 2px solid #AF7EEB ;
+    color: black;
+   
+}
+.clearBtn:hover{
+    background: #AF7EEB;
+}
+/* .editIcon{
+    font-size: 1.2rem;
+    margin-right: 3px;
+    cursor: pointer;
+} */
